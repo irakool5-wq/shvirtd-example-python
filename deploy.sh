@@ -151,7 +151,7 @@ show_info() {
     echo ""
     echo "Проект расположен: ${TARGET_DIR}"
     echo "Локальный доступ: http://127.0.0.1:8090"
-    echo "Внешний доступ: http://<ВАШ_ВНЕШНИЙ_IP>:8090"
+    echo "Внешний доступ: http://<ВНЕШНИЙ_IP>:8090"
     echo ""
     echo "Полезные команды:"
     echo "  • Просмотр логов:     cd ${TARGET_DIR} && docker compose logs -f"
@@ -162,7 +162,7 @@ show_info() {
     echo "Для внешнего тестирования:"
     echo "  1. Узнайте внешний IP: curl -s https://ifconfig.me"
     echo "  2. Протестируйте на:   https://check-host.net/check-http"
-    echo "  3. URL для проверки:   http://<ВАШ_ВНЕШНИЙ_IP>:8090"
+    echo "  3. URL для проверки:   http://<ВНЕШНИЙ_IP>:8090"
     echo ""
 }
 
